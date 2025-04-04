@@ -1,13 +1,14 @@
 import { ArrowRight } from "lucide-react";
+import bg from '../../assets/Group 8690.png'
 
 function Stayahead() {
     return (
         <section className="flex items-center py-16 px-10 bg-purple-50">
         <div className="w-1/2">
           <img 
-            src="/api/placeholder/400/400" 
+            src={bg}
             alt="Student pointing" 
-            className="w-full"
+            className="w-1/2"
           />
         </div>
         <div className="w-1/2 pl-16">
