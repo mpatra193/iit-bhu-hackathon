@@ -19,3 +19,8 @@ line-height: normal;
     font-weight: 500;
     line-height: normal;
 }
+
+.sidebar{
+    opacity: 0.9;
+background: var(--Foundation-Primary-primary-500, #262525);
+}

@@ -9,9 +9,14 @@ import { AuthProvider } from './contexts/AuthContext'
 function App() {
 
   return (
-    <>
-      <Studentdashboard  />
-    </>
+    <div>
+        <Router>
+          <Landing path="/" />
+          <Login path="/login" />
+          <Signup path="/signup" />
+          <Studentdashboard path="/student-dashboard" />
+        </Router>
+    </div>
   )
 }
 

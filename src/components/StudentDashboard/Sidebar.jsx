@@ -2,8 +2,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-    faCompass, faBook, faTasks, faChartLine,
-    faBullhorn, faSignOutAlt
+  faCompass, faBook, faTasks, faChartLine,
+  faBullhorn, faSignOutAlt
 } from '@fortawesome/free-solid-svg-icons';
 import "../../styles/sidebar.css";
 
