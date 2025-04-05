@@ -2,8 +2,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faCompass, faBook, faTasks, faChartLine,
-  faBullhorn, faSignOutAlt
+    faCompass, faBook, faTasks, faChartLine,
+    faBullhorn, faSignOutAlt
 } from '@fortawesome/free-solid-svg-icons';
 import "../../styles/sidebar.css";
 
@@ -29,13 +29,16 @@ const Sidebar = ({ sidebarOpen, handleMenuItemClick, activeMenuItem, menuItems, 
     {menuItems.map((item) => (
       <div
         key={item.name}
-        className={`flex items-center px-5 py-4 cursor-pointer transition-colors hover:bg-gray-800 ${
-          activeMenuItem === item.name ? 'bg-gray-800 border-l-4 border-purple-500' : ''
-        }`}
+        className={`flex items-center px-5 py-4 cursor-pointer transition-colors ${
+            activeMenuItem === item.name 
+              ? 'bg-white text-black font-bold'  // Selected item (white background, black text)
+              : 'bg-gray-900 text-white hover:bg-gray-800' // Default (dark background, white text)
+          }`}
+          
         onClick={() => handleMenuItemClick(item.name)}
       >
         <FontAwesomeIcon icon={item.icon} className="mr-3 text-lg" />
-        <span>{item.name}</span>
+        <span className='element-name'>{item.name}</span>
       </div>
     ))}
   </div>

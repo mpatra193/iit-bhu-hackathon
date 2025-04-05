@@ -1,3 +1,5 @@
+
+
 .head-dash{
     color: var(--Foundation-Primary-primary-50, #E9E9E9);
 font-family: Broadway;
@@ -5,4 +7,15 @@ font-size: 32px;
 font-style: normal;
 font-weight: 400;
 line-height: normal;
+}
+
+.element-name{
+    color: var(--Foundation-TextColor-textcolor-50, #EEE);
+
+    /* Subtitle/S3/Medium 18px */
+    font-family: Montserrat;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
