@@ -4,12 +4,13 @@ import Landing from './pages/Landing'
 import Login from './pages/Login'
 import Signup from './pages/Signup'
 import Studentdashboard from './pages/Studentdashboard'
+import Facultydashboard from './pages/Facultydashboard'
 
 function App() {
 
   return (
     <>
-      <Studentdashboard  />
+      <Facultydashboard  />
     </>
   )
 }
