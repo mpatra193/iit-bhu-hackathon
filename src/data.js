@@ -1,8 +1,10 @@
+import img1 from "../src/assets/Frame 1230.png"
+
 export const trendingCourses = [
     {
       id: 1,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: img1,
       rating: 4.5,
       userCount: "30k+ users",
       currentPrice: 5000,
@@ -12,7 +14,7 @@ export const trendingCourses = [
     {
       id: 2,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/600/600",
       rating: 4.8,
       userCount: "25k+ users",
       currentPrice: 5000,
@@ -22,7 +24,7 @@ export const trendingCourses = [
     {
       id: 3,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/600",
       rating: 4.7,
       userCount: "35k+ users",
       currentPrice: 5000,
@@ -32,7 +34,7 @@ export const trendingCourses = [
     {
       id: 4,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/200",
       rating: 4.6,
       userCount: "28k+ users",
       currentPrice: 5000,
@@ -45,7 +47,7 @@ export const trendingCourses = [
     {
       id: 5,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/300",
       rating: 5.0,
       userCount: "40k+ users",
       currentPrice: 5000,
@@ -55,7 +57,7 @@ export const trendingCourses = [
     {
       id: 6,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/400",
       rating: 4.9,
       userCount: "32k+ users",
       currentPrice: 5000,
@@ -65,7 +67,7 @@ export const trendingCourses = [
     {
       id: 7,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/500",
       rating: 4.8,
       userCount: "29k+ users",
       currentPrice: 5000,
@@ -75,7 +77,7 @@ export const trendingCourses = [
     {
       id: 8,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/600",
       rating: 4.7,
       userCount: "26k+ users",
       currentPrice: 5000,
@@ -88,7 +90,7 @@ export const trendingCourses = [
     {
       id: 9,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/200",
       rating: 4.6,
       userCount: "15k+ users",
       currentPrice: 5000,
@@ -98,7 +100,7 @@ export const trendingCourses = [
     {
       id: 10,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/300",
       rating: 4.5,
       userCount: "12k+ users",
       currentPrice: 5000,
@@ -108,7 +110,7 @@ export const trendingCourses = [
     {
       id: 11,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/400",
       rating: 4.4,
       userCount: "10k+ users",
       currentPrice: 5000,
@@ -118,7 +120,7 @@ export const trendingCourses = [
     {
       id: 12,
       title: "The Ultimate Beginners Guide to Cloud Computer",
-      image: "/placeholder.svg?height=150&width=250",
+      image: "https://picsum.photos/500",
       rating: 4.3,
       userCount: "8k+ users",
       currentPrice: 5000,
@@ -133,7 +135,7 @@ export const trendingCourses = [
       name: "Nolan Matthew",
       role: "UI/UX Designer",
       courseCount: "5 Courses",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://picsum.photos/200",
       rating: 4.8,
     },
     {
@@ -141,7 +143,7 @@ export const trendingCourses = [
       name: "Haris Mehra",
       role: "Cloud Engineer",
       courseCount: "7 Courses",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://picsum.photos/300",
       rating: 4.9,
     },
     {
@@ -149,7 +151,7 @@ export const trendingCourses = [
       name: "Amanda Ceria",
       role: "UI/UX Designer",
       courseCount: "10 Courses",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://picsum.photos/400",
       rating: 4.7,
     },
     {
@@ -157,7 +159,7 @@ export const trendingCourses = [
       name: "John Serie",
       role: "UI/UX Designer",
       courseCount: "8 Courses",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "https://picsum.photos/500",
       rating: 4.6,
     },
   ]

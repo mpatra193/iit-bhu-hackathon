@@ -10,7 +10,7 @@ const Testimonial = () => {
       id: 1,
       name: "Hannah Schmitt",
       role: "Cyber Security",
-      image: "/api/placeholder/80/80",
+      image: "https://xsgames.co/randomusers/avatar.php?g=female",
       quote: "Amazing platform to study cyber security! Every course is well organized and study material is up to the mark. Haven't found any problem and solved my doubts in no time.",
       rating: 5,
       time: "2h hrs. ago"
@@ -19,7 +19,7 @@ const Testimonial = () => {
       id: 2,
       name: "Michael Chen",
       role: "Web Development",
-      image: "/api/placeholder/80/80",
+      image: "https://xsgames.co/randomusers/avatar.php?g=male",
       quote: "The learning resources are incredibly comprehensive. I've been able to advance my skills significantly and apply them directly to my work projects.",
       rating: 5,
       time: "1 day ago"
@@ -28,7 +28,7 @@ const Testimonial = () => {
       id: 3,
       name: "Sarah Johnson",
       role: "Data Science",
-      image: "/api/placeholder/80/80",
+      image: "https://xsgames.co/randomusers/avatar.php?g=female",
       quote: "This platform offered exactly what I needed to transition into data science. The practical exercises and projects were particularly valuable.",
       rating: 4,
       time: "3 days ago"
@@ -58,7 +58,7 @@ const Testimonial = () => {
   };
 
   return (
-    <div className="w-full bg-white py-12 px-4">
+    <div className="w-full bg-white mb-10 px-4">
       <div className="max-w-5xl mx-auto">
         {/* Testimonial Header */}
         <div className="text-center mb-6">
@@ -68,9 +68,7 @@ const Testimonial = () => {
 
         {/* Testimonial Carousel */}
         <div className="relative mt-12">
-          {/* Dark Circle Background */}
-          <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 w-96 h-96 bg-gray-900 rounded-full -z-10"></div>
-
+          
           {/* Testimonial Card */}
           <div className="relative flex justify-center">
             <div className="bg-white rounded-lg shadow-lg p-6 max-w-xl mx-auto border border-gray-100">

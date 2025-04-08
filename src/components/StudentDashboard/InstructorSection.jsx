@@ -1,10 +1,10 @@
 import InstructorCard from "./InstructorCard"
 
-export default function InstructorSection({ title, instructors }) {
+export default function InstructorSection({ title, instructors ,isLast}) {
   return (
     <section className="space-y-4">
       <div className="flex items-center justify-between">
-        <h2 className="text-lg font-medium">{title}</h2>
+        <h2 className={`text-lg font-medium ${isLast?"text-white":"text-black"}`}>{title}</h2>
         <a href="#" className="text-sm text-gray-400 hover:text-white flex items-center">
           See all <span className="ml-1">→</span>
         </a>

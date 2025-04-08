@@ -41,30 +41,35 @@ const Studentdashboard = () => {
   };
 
   return (
-    <div className="flex min-h-screen bg-white">
-      <Sidebar
-        sidebarOpen={sidebarOpen}
-        setSidebarOpen={setSidebarOpen}
-        activeMenuItem={activeMenuItem}
-        handleMenuItemClick={handleMenuItemClick}
-        menuItems={menuItems}
-      />
+    <>
+      <div className="flex min-h-screen bg-white">
+        <Sidebar
+          sidebarOpen={sidebarOpen}
+          setSidebarOpen={setSidebarOpen}
+          activeMenuItem={activeMenuItem}
+          handleMenuItemClick={handleMenuItemClick}
+          menuItems={menuItems}
+        />
 
-      <div className="flex-1 flex flex-col">
-        <Navbar toggleSidebar={toggleSidebar} />
-        <Hero activeTab={activeTab} setActiveTab={setActiveTab} />
+        <div className="flex-1 flex flex-col">
+          <Navbar toggleSidebar={toggleSidebar} />
+          <Hero activeTab={activeTab} setActiveTab={setActiveTab} />
 
-        <div className="max-w-7xl mx-auto space-y-8">
-          <CourseSection title="Trending Courses" courses={trendingCourses} />
-          <CourseSection title="Top Rated Courses" courses={topRatedCourses} />
-          <CourseSection title="New on Platform" courses={newCourses} />
-          <InstructorSection title="Meet our TOP Instructors" instructors={instructors} />
+          <div className="max-w-7xl mx-auto space-y-20">
+            <div className='bg-[#262525] w-[98%] h-[184px] p-5 mb-90 mt-20' style={{ borderRadius: "12px", flexShrink: "0" }}>
+              <CourseSection title="Trending Courses" courses={trendingCourses} isFirst={true} />
+            </div>
+            <CourseSection title="Top Rated Courses" courses={topRatedCourses} />
+            <CourseSection title="New on Platform" courses={newCourses} />
+            <div className='bg-[#262525] w-[98%] h-[10%] p-5 mb-15' style={{ borderRadius: "12px", flexShrink: "0" }}>
+              <InstructorSection title="Meet our TOP Instructors" instructors={instructors} isLast={true} />
+            </div>
+          </div>
         </div>
-
-        <Testimonial />
-        <Footer />
       </div>
-    </div>
+      <Testimonial />
+      <Footer />
+    </>
   );
 };
 

@@ -17,7 +17,7 @@ const Sidebar = ({ sidebarOpen, handleMenuItemClick, activeMenuItem, menuItems, 
       )}
 
       <div
-        className={`w-56 bg-gray-900 text-white fixed md:static h-full z-50 transition-all duration-300 ${sidebarOpen ? 'left-0' : '-left-56 md:left-0'}`}
+        className={`w-56 bg-gray-900 text-white fixed md:static h-150 z-50 transition-all duration-300 ${sidebarOpen ? 'left-0' : '-left-56 md:left-0'}`}
       >
         <div className="p-5 border-b border-gray-800">
           <h2 className="text-xl font-bold tracking-widest">DASHBOARD</h2>
